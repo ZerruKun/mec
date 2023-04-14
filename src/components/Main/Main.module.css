@@ -1,0 +1,72 @@
+.main {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.aside {
+    border-right: 1px solid #E0E0E0;
+}
+
+.asideList {
+    max-width: 139px;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.asideItem {
+    padding: 15px 0px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.asideItem:first-child {
+    padding-bottom: 20px;
+}
+
+.asideItem:nth-child(2):hover,
+.asideItem:nth-child(3):hover,
+.asideItem:nth-child(4):hover,
+.asideItem:nth-child(5):hover,
+.asideItem:nth-child(6):hover,
+.asideItem:last-child:hover {
+    font-weight: 700;
+    color: #000000;
+    border-right: 5px solid #C00D0D;
+}
+
+.asideNavlink {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.asideItem:first-child .asideNavlink{
+    padding-top: 0px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #C00D0D;
+}
+
+.asideItem:first-child .asideNavlink:hover {
+    cursor: default;
+}
+
+.asideItem:last-child .asideNavlink{
+    color: #C00D0D;
+}
+
+.asideItem:last-child .asideNavlink:hover {
+    color: #000000;
+}

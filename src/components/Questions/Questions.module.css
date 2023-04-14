@@ -1,0 +1,68 @@
+.general {
+    max-width: 980px;
+    width: 100%;
+    margin-left: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.questions h2 {
+    margin: 40px 0px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #C00D0D;
+}
+
+.amount {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.progressBar {
+    max-width: 480px;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: #E0E0E0;
+}
+
+.fillProgress {
+    max-width: 480px;
+    height: 5px;
+    display: flex;
+    background-color: #C00D0D;
+}
+
+.text {
+    margin-top: 40px;
+}
+
+.text p {
+    max-width: 280px;
+    width: 100%;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
+
+/* Media 590px */
+
+@media screen and (max-width: 590px) {
+    .general {
+        flex-direction:column-reverse;
+        
+    }
+}
+

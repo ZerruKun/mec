@@ -1,0 +1,75 @@
+.question h3 {
+    max-width: 480px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.options {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.option {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.option:last-child {
+    margin-bottom: 0px;
+}
+
+.option input {
+    margin-right: 20px;
+}
+
+.option span {
+    font-size: 18px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 180px;
+    margin-bottom: 10px;
+    padding: 10px 7px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #C00D0D;
+    text-decoration: none;
+}
+
+.button:first-child {
+    margin-right: 20px;
+    color: #C00D0D;
+    background-color: #FFFFFF;
+}
+
+.button:last-child {
+    margin-right: 20px;
+    color: #FFFFFF;
+    background-color: #C00D0D;
+}
+
+.button:first-child:hover {
+    color: #FFFFFF;
+    background-color: #C00D0D;
+}
+
+.button:last-child:hover {
+    color: #C00D0D;
+    background-color: #FFFFFF;
+}

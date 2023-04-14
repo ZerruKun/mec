@@ -1,0 +1,124 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    /* В мозиле, естественно, не блурится */
+    /* А filter: blur(10px); переходит на вложенные элементы и блурит всё*/
+    backdrop-filter: blur(10px);
+    transform: scale(0);
+}
+
+.active {
+    transform: scale(1);
+}
+
+.content {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.discription {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discription h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.paragraphs {
+    max-height: 185px;
+    height: 100%;
+    display: flex;
+}
+
+.paragraphsMargin2 {
+    margin-top: 45px;
+}
+
+.paragraphsMargin3 {
+    margin-top: 90px;
+}
+.paragraphsMargin4 {
+    margin-top: 135px;
+}
+.paragraphsMargin5 {
+    margin-top: 180px;
+}
+.paragraphsMargin6 {
+    margin-top: 225px;
+}
+
+.text {
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow {
+    margin-right: 24px;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.nextButton {
+    width: 180px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background: #C00D0D;
+}
+
+.nextButton:hover {
+    color: #C00D0D;
+    background: #FFFFFF;
+}
+
+.nextButtonMargin2 {
+    margin-top: 135px;
+}
+
+.nextButtonMargin3 {
+    margin-top: 90px;
+}
+
+.nextButtonMargin4 {
+    margin-top: 45px;
+}
+
+.nextButtonMargin5 {
+    margin-top: 0px;
+}
+.nextButtonMargin6 {
+    margin-top: -45px;
+}
+
+.cross {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    width: 26px;
+    height: 26px;
+    background-image: url("../../../images/modals/cross.svg");
+}

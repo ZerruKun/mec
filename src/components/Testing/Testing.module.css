@@ -1,0 +1,145 @@
+.general {
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.general h2 {
+    margin: 40px 0px 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #C00D0D;
+}
+
+.testResults {
+    position: relative;
+    max-width: 380px;
+    max-height: 180px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid #E0E0E0;
+}
+
+.question {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #BDBDBD;
+}
+
+.question:hover {
+    background-color: #C00D0D;
+}
+
+.circle {
+    display: flex;
+    width: 180px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 20px solid #E0E0E0;
+}
+
+.circleText {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #C00D0D;
+}
+
+.results {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.results span {
+    font-size: 18px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons a {
+    max-width: 280px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 7px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #C00D0D;
+    text-decoration: none;
+}
+
+.buttons a:first-child {
+    margin-right: 20px;
+    color: #FFFFFF;
+    background-color: #C00D0D;
+}
+
+.buttons a:last-child {
+    margin-right: 20px;
+    color: #C00D0D;
+    background-color: #FFFFFF;
+}
+
+.buttons a:first-child:hover {
+    color: #C00D0D;
+    background-color: #FFFFFF;
+}
+
+.buttons a:last-child:hover {
+    color: #FFFFFF;
+    background-color: #C00D0D;
+}
+
+/* Media 590 */
+
+@media screen and (max-width: 590px) {
+
+    .general {
+        max-width: 280px;
+        margin-left: 10px;
+    }
+
+    .testResults {
+        max-height: 380px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circle {
+        width: 140px;
+    }
+
+    .results {
+        margin-left: 0px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,56 @@
+.aside {
+    padding-top: 40px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #E0E0E0;
+}
+
+.asideList {
+    max-width: 139px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.asideItem {
+    width: 139px;
+    height: 45px;
+    display: block;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.asideItem:first-child {
+    font-weight: 700;
+    line-height: 14px;
+    color: #C00D0D;
+}
+
+.asideItem:last-child .link {
+    color: #C00D0D;
+}
+
+.link {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.link:hover {
+    font-weight: 700;
+    border-right: 5px solid #C00D0D;
+}
+
+.activeLink {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    border-right: 5px solid #C00D0D;
+    color: #000000;
+}
